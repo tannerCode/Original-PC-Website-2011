@@ -1,0 +1,319 @@
+.col {
+    position: absolute;
+    top: 10px;
+    height: 556px;    
+    padding: 0px;
+    background-color: #F8F8F8;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); 
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); 
+    overflow: hidden;}
+.col h1 {
+    margin: 0px;
+    padding :0px;
+    text-align: center;	
+    font-size: 40px;
+    text-shadow: 0px 0px 1px white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); 
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); }
+.col p {
+    margin: 0px;
+    padding: 3px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }
+/**left**/
+div#left {left: 0px; width: 360px;}
+div#left h1{color: #A68200; margin: 0px; padding: 0px;}
+
+/**main**/
+div#main {
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 484px;}
+div#main h1{color: #F60018;}
+
+/**right**/
+div#right {width: 360px; right: 0px;}
+div#right h1{color: #0772A1;}
+
+/**adventure options**/
+div.new_col {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15); 
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.15);
+}
+.new_col h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    margin: 0px;
+    padding: 15px 0 15px 0;
+    text-align: center;	
+    font-size: 40px;
+    text-shadow: 0px 0px 1px white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 500;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.7;}
+.new_col h1:hover {
+    opacity: 0.9;}
+.new_col a{    
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height:100%; 
+    }
+.pics {margin: 0px; padding:0px; }
+div#mainstay {
+    left: 0px;
+    top: 10px;
+    height: 556px;
+    width: 755px;}
+div#mainstay h1{
+    color: #fff; 
+    background-color: #F60018;
+    margin: 0px; 
+    }
+div#nzpic1 {
+    height: 566px;
+    width: 755px;
+    background: url(../images/nzpic1.jpg) 0px 0px;
+    float: left; }    
+div#second {
+    right: 0px;
+    top: 10px;
+    height: 280px;
+    width: 470px; }
+div#second h1{color: #fff; background-color: #A68200;}
+div#southpic {
+    height: 100%;
+    width: 100%;
+    background: url(../images/southpic.jpg) 0px 0px; }
+div#third {
+    right: 0px;
+    bottom: 10px;
+    height: 266px;
+    width: 470px; }
+div#third h1{color: #fff; background-color: #0772A1;}
+div#oregonpic {
+    height: 100%;
+    width: 100%;
+    background: url(../images/oregonpic.jpg) 0px 0px; }
+/*studies-credits*/
+div#credits_main {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 1235px;
+    height: 556px;
+    margin: 0;
+    background-color: #fff;
+    border-bottom: 2px solid #E8E8E8;
+    }
+div#credits_main h1 {color:#38A3D0; }
+div#description {
+    border: 0px;
+    margin: 10px;
+    }
+div#description p {
+    font-size: 14px;
+    margin: 0px;
+    border: 0px;
+    color: #000;
+    padding: 5px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+	}
+div#description a {
+    margin: 10px auto 0 auto;
+    display: block;
+    width: 230px;
+    text-align: center;
+    font-family: 'Open Sans Condensed',sans-serif;
+    font-size: 16px;
+    border: 2px solid #024A68;
+    text-decoration: none;
+    background-color: #38A3D0;
+    color: #fff;
+    padding: 1px; }
+div#description a:hover { background-color: #024A68; }
+table#classes {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin: 20px auto 0 auto;
+    }
+table#classes td { padding: 0px 5px 0px 5px; }
+table#classes th { border-bottom: 2px solid #E8E8E8; text-align: left; }	
+
+div#credits_right {
+    position: absolute;
+    background-color: #fff;
+    height: 556px;
+    width: 360px;
+    right: 0px;
+    }
+div#school {
+    background-color: #fff;
+    margin: 15px 0 0 0;
+    height: 440px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);}
+a.school {
+    display: block;
+    float: left;
+    height: 140px;
+    width: 180px;
+    padding: 0px;
+    margin: 0px;    
+    border: none;}
+/**philosophy**/
+div#philosophy_back {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    width: 1235px;
+    height: 556px;
+    margin: 0;
+    border-bottom: 2px solid #E8E8E8;
+    background:url(../images/philosophy.jpg) 0px 0px;
+    }
+div#philosophy_main {
+    position: absolute;
+    left: 0px;
+    top: 17px;
+    width: 504px;
+    height: 556px;
+    margin: 0;
+    border: 0px solid white; 
+    background: none;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15); }
+div#philosophy_main h1{
+    color: #38A3D0;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.15); 
+    }
+div#philosophy_main p{
+    background-color: #fff;
+    padding: 5px;
+    margin: 0 0 0 0;
+    color: #000;
+    opacity: 0.5;
+    }
+div#philosophy_right {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    height: 556px;
+    width: 751px;
+    margin: 0;
+    padding: 0;
+    background: none;
+    }
+div.quote {
+    text-align: center;
+    background: none;
+    margin: 50px 0 10px 0; 
+    opacity: 0.7;
+    display: none;}	
+div.quote p {
+    font-size: 16px;
+    margin: 0px;
+    color: #fff;
+    padding: 3px; }
+div.quote p span{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+    color: #000;
+    text-align: right;
+    padding: 3px; }
+/**faq**/
+#faq {
+    position: absolute;
+    top: 120px;
+    margin: 0;
+    height: 400px; 
+    width: 100%; }
+#faqpic {
+    background:url(../images/faq.jpg) 0px 0px;
+    height: 556px;
+    width: 360px;
+    margin: 0;
+    padding: 0;}
+#faq p {margin: 0;}
+#questions {list-style-type: none; padding: 1px; margin: 10px 0 0 0;}    
+li.questions {
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8; 
+    background-color: #fff;
+    padding: 4px;
+    margin: 2px 1px 2px 0px;
+    width: 100%;
+    font-size: 14px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    cursor: pointer; }
+li.questions:hover {background-color: #c8c8c8;}
+.qselected {background-color: #c8c8c8;}
+div#faq h2 {
+    position: absolute;
+    margin: 0;
+    padding: 4px;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 2px solid #E8E8E8; }
+h2#Q {
+    top: 60px ;
+    left: 0px; }
+h2#A {
+    top: 150px;
+    right: 0px;
+    color: #024A68; }
+#qa {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 95px;
+    left: 0px;}
+#tut {
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    border: 3px solid #E8E8E8;}
+#question {
+    color: ;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px; }
+#answer {
+    color: #024A68;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 14px;} 
+#answers {display: none;}    
+/**contact**/
+#map { margin: 0px;}
+p.email {
+    text-align: left; 
+    margin: 0 5px 0 5px;
+    border-top: 1px solid #E8E8E8;
+    border-bottom: 1px solid #E8E8E8; }
+div#contact_main {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    width: 1235px;}
+div#contact_right {width: 360px; height: 326px; right: 0px;}
+div#contact_right h1{color: #0772A1;}    
+    

@@ -1,0 +1,36 @@
+div.leader {
+    overflow: hidden;
+    margin: 30px 0px 0px 0px;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    background-color: #fff;
+    }
+
+.leader h2 {
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px;
+    color: #000;
+    line-height: 100%;
+    margin: 10px 0px 0px 0px;
+    }
+.leader h2 span {
+    font-size: 14px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 100;
+    color: #3BA3D0;
+}
+.leader img {
+    height: 200px;
+    width: 150px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    }
+.leader p {
+    text-align: left;
+    margin: 0px;
+    padding: 2px;
+    font-size: 12px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    }

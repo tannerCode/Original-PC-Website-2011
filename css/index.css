@@ -1,0 +1,221 @@
+/********top********/
+div#top {
+    position: absolute;
+    top: 0px;
+    width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0px; }
+#topmenu {
+    margin: 0px;
+    padding: 0px; 
+    list-style: none; }
+#topmenu li a{
+    display: block;
+    float: left;
+    font: normal 10px Verdana, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    border: 0px solid white;
+    padding: 6px;    
+    opacity: 0.5; }
+#topmenu li a:hover {
+    opacity: 1.0; }
+/***First******/
+div#first {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;}
+img#logo {
+	position: absolute;
+	top: 20px;
+	left: 10px; }
+h2#caption {
+    position: absolute;
+    top: 150px;
+    left: 14px;
+    font-size: 24px;
+    margin: 0px;
+    border: 0px;
+    color: #000;
+    padding: 5px;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 300;
+    }
+.options {
+	position: absolute;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 40px;
+	text-shadow: 0px 0px 1px white;
+	color: white;
+	bottom: 10px;
+	padding: 12px; }	
+#aus {
+	background-color: #F60018;
+	left: 20px; }
+#south {
+	background-color: #A68200;
+	left: 220px; }
+#oregon {
+	background-color: #225E79;
+	left: 448px; }
+/******Main********/
+div#main {
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	height: 556px;
+	width: 755px;
+	z-index: -1;
+	}
+#picmain {
+        height: 100%;
+        width: 100%;
+        }
+#vidcover {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	width: 470px;
+	height: 280px;
+	cursor: pointer;
+	background-image:url(../images/vidcover3.png);}
+
+/* Vertical Accordion Style
+
+darkblue #024A68
+green #62E200
+lightblue #024A68
+yellow #FFC900
+blue #0772A1
+*/
+
+.container{
+	position: absolute;
+	bottom: 10px;
+	right: 0px;
+	color: white;
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	font-size:12px; }
+.va-container{
+	position:absoluate;
+	top: 0px;
+	height: 100%;
+	width: 98%; }
+.va-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+	overflow:hidden;
+	background:#0772A1; }
+.va-slice{
+	cursor:pointer;
+	position:absolute;
+	width:100%;
+	left:0px;
+	overflow:hidden; }
+.va-slice-1{ background:#0772A1 url(../images/1.jpg) no-repeat center center;}
+.va-slice-2{ background:#0772A1 url(../images/2.jpg) no-repeat center center;}
+.va-slice-3{background:#0772A1 url(../images/3.jpg) no-repeat center center;}
+.va-slice-4{background:#0772A1 url(../images/4.jpg) no-repeat center center;}
+.va-slice-5{background:#0772A1 url(../images/5.jpg) no-repeat center center;}
+.va-slice-color-1{background-color:#97c5eb;}
+.va-slice-color-2{background-color:#68ace5;}
+.va-slice-color-3{background-color:#0072cf;}
+.va-slice-color-4{background-color:#0039a6;}
+.va-slice-color-5{background-color:#00338e;}
+.va-title{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size:60px;
+	margin-left:20px;
+	color:#fff;
+	text-shadow: 0px 0px 1px white;}
+.va-content{
+	display:none;
+	margin-left:25px;}
+.va-slice p{
+	font-size: 22px;
+	font-style: italic;
+	font-family:Georgia, serif;}
+.va-slice ul{margin-top:20px;}
+.va-slice ul li{
+	float:left;
+	margin:0px 2px;}
+.va-slice ul li a{
+	color:white;
+	background:#0772A1;
+	padding:3px 6px;
+	list-style-type:none;
+	text-decoration: none;
+	font-size:18px;
+	font-family:'PT Sans', sans-serif;}
+.va-slice ul li a:hover{
+	color: #FFC900;
+	text-shadow:none; }
+.va-nav span{
+	width:40px;
+	height:25px;
+	background:transparent url(../images/prev.png) no-repeat center center;
+	position:absolute;
+	top: -35px;
+	left:50%;
+	margin-left:-20px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	display:none;
+	z-index:101;}
+.va-nav span.va-nav-next{
+	background-image:url(../images/next.png);
+	top:auto;
+	bottom: -35px;}
+.va-nav span:hover{ opacity:1.0; }
+/***Second***/
+div#second {
+    position: absolute;
+    top: 0px;
+    right: -1240px;
+    height: 100%;
+    width: 100%;}
+div#back {  
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    height: 540px;
+    width: 128px;
+    cursor: pointer;
+    background-image:url(../images/back.png);}
+div#back:hover {
+    -webkit-box-shadow: 8px 0px 6px -6px #000;
+    -moz-box-shadow: 8px 0px 6px -6px #000;
+    box-shadow: 8px 0px 6px -6px #000; }
+#vid {
+    position: absolute;
+    height: 540px; 
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 20px;
+    right: 0px;
+    left: 0px; }
+div#ats {  
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    height: 540px;
+    width: 128px;
+    background-image:url(../images/ats.png);}
+
+
+	
+
+
+
+
+
+
+
